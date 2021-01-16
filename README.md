@@ -14,7 +14,7 @@ POST /v1/phone HTTP/1.1
 Host: localhost:9080
 Content-Type: application/json
 Cache-Control: no-cache
-Postman-Token: 9da82d7e-d5d8-2383-9bc8-6c71eb5aa9f3
+
 
 {
 	"name":"siva",
