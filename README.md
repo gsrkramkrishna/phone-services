@@ -3,11 +3,11 @@
 Phone Service stores the phone contacts and also get phone contact details using name. It supports basic CURD operations.
 Please follow the below steps once you clone the repository.
 
-step 1:  mvn clean install \n
-step 2: java -jar target\phone-service-0.0.1-SNAPSHOT.jar \n
+step 1:  mvn clean install
+step 2: java -jar target\phone-service-0.0.1-SNAPSHOT.jar
 
 #CURL Scripts:
-================================================================================================
+
 #POST CURL Script
 
 POST /v1/phone HTTP/1.1
@@ -23,7 +23,6 @@ Postman-Token: 9da82d7e-d5d8-2383-9bc8-6c71eb5aa9f3
 	"emailId" :"test@test.com"
 	
 }
-==================================================================================================
 
 #GET CURL Script
 GET /v1/phone/siva HTTP/1.1
